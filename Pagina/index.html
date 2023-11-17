@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== BOXICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+        
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="styles.css">
+
+        <title>Responsive menu ui - Bedimcode</title>
+    </head>
+    <body>
+        <!--=============== NAV ===============-->
+        <nav class="nav" id="nav">
+            <div class="nav__menu container" id="nav-menu">
+                <div class="nav__shape"></div>
+
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+                
+                <div class="nav__data">
+                    <div class="nav__mask">
+                        <!-- Change your profile picture -->
+                        <img src="assets/img/perfil.png" alt="" class="nav__img">
+                    </div>
+
+                    <span class="nav__greeting">Hi, I'm</span>
+                    <h1 class="nav__name">Bales <br> Vegas</h1>
+                </div>
+
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home' ></i> Home 
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user'></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class='bx bx-briefcase-alt-2'></i> Portfolio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-bookmark'></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-square-detail'></i> Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--=============== MAIN ===============-->
+        <main class="main" id="main">
+            <!--=============== HEADER ===============-->
+            <header class="header" id="header">
+                <nav class="header__nav container">
+                    <a href="#" class="header__logo">
+                        Bales
+                    </a>
+    
+                    <!-- Toggle button -->
+                    <div class="header__toggle" id="header-toggle">
+                        <i class='bx bx-grid-alt'></i>
+                    </div>
+                </nav>
+            </header>
+
+
+            <!-- When inserting your content into sections, remove the section__height class -->
+            <!--=============== HOME ===============-->
+            <div class="Container">
+        <div class="Container-Img">
+            <img src="img/glow.png" alt="Logo" class="imga">
+        </div>
+        <div class="Container-Texto">
+          <div class="Container-Slogan-Titulo">
+              <h1>EcoBrisa</h1>
+          </div>
+          <div class="Container-Slogan-Linea">
+              <p></p>
+          </div>
+          <div class="Container-Slogan-Slogan">
+              <h3>"Viento, Energía, Sostenibilidad: Nuestra Promesa."</h3>
+          </div>
+          <div class="Container-input">
+              <input type="button" value="Ingresar" onclick="" class="Boton" >
+          </div>
+      </div>
+    </div>
+    <!-- Pie de pagina -->
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="img/glow.png" alt="Logo">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Somos una empresa comprometida con la excelencia en el servicio al cliente.</p>
+                <p>Nuestro equipo está formado por profesionales apasionados por ofrecer soluciones innovadoras.</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="https://facebook.com" class="fa fa-facebook"></a>
+                    <a href="https://instagram.com" class="fa fa-instagram"></a>
+                    <a href="https://twitter.com" class="fa fa-twitter"></a>
+                    <a href="https://youtube.com" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2023   <b>EcoBrisa</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+        </main>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="main.js"></script>
+    </body>
+</html>

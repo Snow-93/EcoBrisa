@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="incio sesion.css">
+        <link rel="icon" href="img/glow.png" >
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <title>Inicio de sesion</title>
+    </head>
+    <body>
+        
+        <div class="login">
+            <div class="login__content">
+                <div class="login__img">
+                    <img src="img/glow.png" alt="">
+                </div>
+
+                <div class="login__forms">
+                    <form action="" class="login__registre" id="login-in">
+                        <h1 class="login__title">Iniciar sesión</h1>
+    
+                        <div class="login__box">
+                            <i class='bx bx-user login__icon'></i>
+                            <input type="text" placeholder="Usuario" class="login__input" id="usuario">
+                        </div>
+    
+                        <div class="login__box">
+                            <i class='bx bx-lock-alt login__icon'></i>
+                            <input type="password" placeholder="Contraseña" class="login__input" id="contraseña">
+                        </div>
+
+                        <a href="#" class="login__forgot">¿Olvidaste tu contraseña?</a>
+                        <br>
+                        <input type="button" value="Iniciar sesión" onclick="operacion('login')" class="login__button">
+                        <br>
+
+                        <div>
+                            <br>
+                            <span class="login__account">¿No tienes una cuenta?</span>
+                            <span class="login__signin" id="sign-up">Regístrate</span>
+                        </div>
+                    </form>
+
+                    <form action="" class="login__create none" id="login-up">
+                        <h1 class="login__title">Crea una cuenta</h1>
+    
+                        <div class="login__box">
+                            <i class='bx bx-user login__icon'></i>
+                            <input type="text" placeholder="Usuario" class="login__input" id="registroUsuario">
+                        </div>
+    
+                        <div class="login__box">
+                            <i class='bx bx-at login__icon'></i>
+                            <input type="text" placeholder="Email" class="login__input" id="registroEmail">
+                        </div>
+
+                        <div class="login__box">
+                            <i class='bx bx-lock-alt login__icon'></i>
+                            <input type="password" placeholder="Contraseña" class="login__input" id="registroContraseña">
+                        </div>
+
+                        <input type="button" value="Registrarse" onclick="operacion('register')" class="login__button">
+                        <br>
+                        <div>
+                            <br>
+                            <span class="login__account">¿Tienes una cuenta?</span>
+                            <span class="login__signup" id="sign-in">Inicia sesión</span>
+                        </div>
+
+                        <div class="login__social">
+                            <a href="https://www.facebook.com/profile.php?id=61553009177542&mibextid=ZbWKwL" class="login__social-icon"><i class='bx bxl-facebook' ></i></a>
+                            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FEco_Brisa2023" class="login__social-icon"><i class='bx bxl-twitter' ></i></a>
+                            <a href="https://www.instagram.com/ecobrisa_eolica/?igshid=MzMyNGUyNmU2YQ%3D%3D" class="login__social-icon"><i class='bx bxl-instagram'></i> </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!--===== MAIN JS =====-->
+        <script src="codigo.js "></script>
+    </body>
+</html>
